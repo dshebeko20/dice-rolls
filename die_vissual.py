@@ -1,5 +1,7 @@
 from die import Die
 
+import plotly.express as px
+
 # Создание кубика D6
 
 die = Die()
@@ -18,4 +20,7 @@ for value in poss_results:
     frequency = results.count(value)
     frequencies.append(frequency)
 
-print(frequencies)
+# Визуализация результатов.
+
+fig = px.bar(x=poss_results, y=frequencies)
+fig.show()
