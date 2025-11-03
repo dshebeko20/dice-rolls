@@ -28,7 +28,7 @@ title = "Results of Rolling Two D6 and D10  50,000 Times"
 labels =  {'x': 'Result', 'y': 'Frecuency of Result'}
 fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 
-# Дальнейшая настройка ддиграммы.
+# Дальнейшая настройка диаграммы.
 fig.update_layout(xaxis_dtick=1)
-fig.write_html('dice_wisual_d6s10.html')
+fig.show()
 
