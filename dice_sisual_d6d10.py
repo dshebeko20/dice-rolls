@@ -30,8 +30,5 @@ fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 
 # Дальнейшая настройка ддиграммы.
 fig.update_layout(xaxis_dtick=1)
-
-# Создание экземпляра Path и сохранение в любом каталоге.
-path = Path('C:/Users/dmshebeko/Desktop/dice_wisual_d6s10.html')
-fig.write_html(path)
+fig.write_html('dice_wisual_d6s10.html')
 
