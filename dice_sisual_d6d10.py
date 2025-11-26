@@ -1,5 +1,4 @@
 from die import Die
-from pathlib import Path
 
 import plotly.express as px
 
