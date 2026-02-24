@@ -7,7 +7,7 @@ import plotly.express as px
 die_1 = Die()
 die_2 = Die(10)
 
-# Моделирование серии бросков с соханением результтатов в списке.
+# Моделирование серии бросков с сохранением результатов в списке.
 results = []
 
 for roll_num in range(50_000):
@@ -24,7 +24,7 @@ for value in poss_results:
 
 # Визуализация результатов.
 title = "Results of Rolling Two D6 and D10  50,000 Times"
-labels =  {'x': 'Result', 'y': 'Frecuency of Result'}
+labels =  {'x': 'Result', 'y': 'Frequency of Result'}
 fig = px.bar(x=poss_results, y=frequencies, title=title, labels=labels)
 
 # Дальнейшая настройка диаграммы.
