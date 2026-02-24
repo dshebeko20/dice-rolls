@@ -28,9 +28,9 @@
 
 Убедитесь, что у вас установлен Python $3{,}x$ и необходимые библиотеки:
 
-```bash
-pip install plotly
-```
+   ```bash
+   pip install plotly
+   ```
 
 ### Запуск скриптов
 
