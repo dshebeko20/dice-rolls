@@ -87,7 +87,7 @@ pip install plotly
 
 ## 🖼️ Пример графика
 
-![Визуализация бросков кубика](screenshots/temperature_chart.png)
+![Визуализация бросков кубика](https://github.com/dshebeko20/dice-rolls/blob/main/screenshots/newplot%20(2).png)
 
 ## 📜 Лицензия
 
